@@ -13,7 +13,7 @@ namespace SimpleAPI.Test
             WeatherForecast controller = new WeatherForecast();
             var returnValue = controller.Get(1);
             Assert.NotEqual("Prashanth", returnValue);
-            Assert.Equal(64, returnValue);
+            Assert.Equal(32, returnValue);
         }
         [Fact]
         public void Test1()
