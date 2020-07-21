@@ -14,7 +14,7 @@ namespace SimpleAPI
 
         public object Get(int v)
         {
-            return "TemperatureE";
+            return TemperatureF;
         }
     }
 }
